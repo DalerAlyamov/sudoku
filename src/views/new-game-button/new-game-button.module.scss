@@ -1,0 +1,16 @@
+@import "../../colors.scss";
+
+.newGameButton {
+  cursor: pointer;
+  width: 24rem;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  color: white;
+  background: $nord10;
+  text-transform: uppercase;
+  transition: 100ms linear;
+  &:hover {
+    background: lighten($nord10, 4%);
+  }
+}

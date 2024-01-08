@@ -1,0 +1,19 @@
+@import "../../colors.scss";
+
+.difficultyButton {
+  cursor: pointer;
+  text-transform: uppercase;
+  background: $snow-storm-1;
+  height: 4.8rem;
+  border-radius: 0.8rem;
+  color: $polar-night-2;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 100ms linear;
+
+  &:hover {
+    background: $snow-storm-3;
+  }
+}
